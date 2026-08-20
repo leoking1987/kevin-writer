@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kevin Writer"
+  short_description: "以 Kevin Mo 的系统判断与湾区房产专业视角创作内容"
+  default_prompt: "使用 $kevin-writer 为 Kevin Mo 撰写一条有流量入口、专业判断和转化路径的视频脚本。"
