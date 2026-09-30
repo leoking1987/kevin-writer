@@ -90,8 +90,9 @@ git clone https://github.com/leoking1987/kevin-writer.git `
 
 ```text
 kevin-writer/
-├── SKILL.md
+├── AGENTS.md
 ├── README.md
+├── SKILL.md
 ├── agents/
 │   └── openai.yaml
 └── references/
@@ -101,6 +102,7 @@ kevin-writer/
 ```
 
 - [`SKILL.md`](SKILL.md)：触发范围、工作流、事实门与交付标准。
+- [`AGENTS.md`](AGENTS.md)：仓库维护规则，以及 README 强制同步要求。
 - [`persona.md`](references/persona.md)：Kevin 的人物定位、可信度来源和事实边界。
 - [`content-playbook.md`](references/content-playbook.md)：内容类型、结构、节奏与平台适配。
 - [`65-口播稿语言风格规范_团队版_2026-09-24.md`](references/65-口播稿语言风格规范_团队版_2026-09-24.md)：语言规则的最高优先级来源。
@@ -115,6 +117,19 @@ kevin-writer/
 4. `content-playbook.md` 与历史视频样本
 
 语言规范与旧样本冲突时，直接删除旧写法，不兼容、不折中。
+
+## 维护约定
+
+`README.md` 必须与 Skill 同步维护。凡是修改 `SKILL.md`、`agents/`、`references/`、`scripts/` 或 `assets/`，都必须在同一轮工作、同一个提交中：
+
+1. 更新 README 中受影响的能力说明、规则、目录和使用示例；
+2. 清理失效链接、过期路径和与当前 Skill 冲突的旧描述；
+3. 运行 Skill 校验并检查 README 的本地链接；
+4. 即使 README 正文无需改写，也要更新下方同步日期，留下已复核的记录。
+
+详细执行规则见 [`AGENTS.md`](AGENTS.md)。
+
+**最近同步：2026-09-30**
 
 ## 其他智能体
 
