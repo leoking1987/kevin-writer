@@ -31,6 +31,7 @@
 | 判断 | 明确建议、适用范围、具体例外和改判信号 |
 | CTA | 每期一个主 CTA，最多一个轻量辅助动作 |
 | 事实纪律 | 不编客户、成交、内部消息和一线观察；缺失内容使用 `【待补：需要什么】` |
+| 团队业绩 | 可独立引用有来源的汇总数字，无需带出项目或客户信息；必须标注统计期间并在发布前复核 |
 | 交付门槛 | 18 项自检低于 29/36，不进入拍摄 |
 
 完整语言规则以 [`65-口播稿语言风格规范_团队版_2026-09-24.md`](references/65-口播稿语言风格规范_团队版_2026-09-24.md) 为唯一标准。历史热门视频只提供主题、结构和专业判断证据，不参与语言定调。
@@ -98,13 +99,15 @@ kevin-writer/
 └── references/
     ├── 65-口播稿语言风格规范_团队版_2026-09-24.md
     ├── content-playbook.md
-    └── persona.md
+    ├── persona.md
+    └── transaction-cases.md
 ```
 
 - [`SKILL.md`](SKILL.md)：触发范围、工作流、事实门与交付标准。
 - [`AGENTS.md`](AGENTS.md)：仓库维护规则，以及 README 强制同步要求。
 - [`persona.md`](references/persona.md)：Kevin 的人物定位、可信度来源和事实边界。
 - [`content-playbook.md`](references/content-playbook.md)：内容类型、结构、节奏与平台适配。
+- [`transaction-cases.md`](references/transaction-cases.md)：可独立引用的团队业绩汇总，以及五笔交易的公开安全表达。
 - [`65-口播稿语言风格规范_团队版_2026-09-24.md`](references/65-口播稿语言风格规范_团队版_2026-09-24.md)：语言规则的最高优先级来源。
 
 ## 规则优先级
