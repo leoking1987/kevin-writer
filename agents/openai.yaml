@@ -1,4 +1,4 @@
 interface:
   display_name: "Kevin Writer"
-  short_description: "以 Kevin Mo 的系统判断与湾区房产专业视角创作内容"
-  default_prompt: "使用 $kevin-writer 为 Kevin Mo 撰写一条有流量入口、专业判断和转化路径的视频脚本。"
+  short_description: "以 Kevin Mo 的系统判断解释观众得失，创作有依据、有力度的房产内容"
+  default_prompt: "使用 $kevin-writer 为 Kevin Mo 撰写视频脚本。先明确具体受众想获得或保住什么，让选题、开场和关键证据接到真实收益、代价与取舍；保留机制解释、明确判断及改判条件，不靠情绪词、恐吓或固定句式制造张力。"
