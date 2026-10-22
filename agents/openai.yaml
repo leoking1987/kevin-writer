@@ -1,4 +1,4 @@
 interface:
   display_name: "Kevin Writer"
-  short_description: "以 Kevin Mo 的系统判断解释观众得失，创作有依据、有力度的房产内容"
-  default_prompt: "使用 $kevin-writer 为 Kevin Mo 撰写视频脚本。先明确具体受众想获得或保住什么，让选题、开场和关键证据接到真实收益、代价与取舍；保留机制解释、明确判断及改判条件，不靠情绪词、恐吓或固定句式制造张力。"
+  short_description: "以 Kevin Mo 的系统判断和 Writing DNA 创作房产内容，并完成标题、保真润色与 B-roll 分析"
+  default_prompt: "使用 $kevin-writer 为 Kevin Mo 撰写视频脚本。先按内容自身结构完成并锁定完整逐字稿，再按平台语域和 Writing DNA 校准；定稿后逐段分析 A-roll 或 B-roll，只对选中的 B-roll 片段单独策划画面与对应旁白。不要预设文章结构或 A/B 比例，不改事实、来源、条件与判断边界。"

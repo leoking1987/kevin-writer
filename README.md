@@ -25,6 +25,22 @@
 
 Kevin 保留机制解释、明确倾向与改判条件；稳、有态度、有轻重，通篇用“您”。
 
+## 当前写作与视频流程
+
+本版本在原有 Kevin 写作内核上增加了三层能力：
+
+- **Writing DNA**：按语言、结构、选题、素材、认知与视觉六个层面校准 Kevin 的稳定风格。
+- **爆款标题本地化**：标题优先组合地点／对象、具体事实或数字、损失／机会和适用条件；问句及“最”字只负责语气。
+- **保真润色**：先锁定数字、来源、归因、条件、否定、因果、承诺和责任主体，再清理模板句、假对比和空泛升华。
+- **平台语域**：长视频、短视频、图文和正式材料分别控制口语程度，不用同一种语气覆盖所有平台。
+
+视频脚本按内容自身结构写完后，再执行画面分析：
+
+1. 先完成并锁定完整全片逐字稿，初稿不预设 A-roll／B-roll 比例。
+2. 逐段判断该用 A-roll、B-roll、混合画面或画外旁白＋B-roll。
+3. 只对最终选择 B-roll 的片段做单独策划，对应旁白与标注版逐字一致。
+4. B-roll 不写 Kevin 或其他主持人的正拍、反应、走路和讲解；主持人出现时归 A-roll。
+
 ## 核心写作标准
 
 | 维度 | 标准 |
@@ -126,8 +142,13 @@ kevin-writer/
 │   └── openai.yaml
 └── references/
     ├── 65-口播稿语言风格规范_团队版_2026-09-24.md
+    ├── broll-annotation.md
     ├── content-playbook.md
+    ├── humanization-pass.md
     ├── persona.md
+    ├── platform-register.md
+    ├── title-patterns-maggie.md
+    ├── writing-dna.md
     ├── youtube-top5/
     │   ├── 01-JpKYltxiqps.md
     │   ├── 02--ctQstVxw84.md
@@ -152,6 +173,11 @@ kevin-writer/
 - [`AGENTS.md`](AGENTS.md)：仓库维护规则，以及 README 强制同步要求。
 - [`persona.md`](references/persona.md)：Kevin 的人物定位、可信度来源和事实边界。
 - [`content-playbook.md`](references/content-playbook.md)：内容类型、结构、节奏与平台适配。
+- [`writing-dna.md`](references/writing-dna.md)：Kevin 的语言、结构、选题、素材、认知与视觉基线。
+- [`title-patterns-maggie.md`](references/title-patterns-maggie.md)：地点／对象、具体事实或数字、损失／机会与条件组合的标题机制。
+- [`platform-register.md`](references/platform-register.md)：长视频、短视频、图文和正式材料的语域规则。
+- [`humanization-pass.md`](references/humanization-pass.md)：事实保真的去 AI 腔与改写核对。
+- [`broll-annotation.md`](references/broll-annotation.md)：先定稿、后分析画面，再单独策划 B-roll 的完整流程。
 - [`transaction-cases.md`](references/transaction-cases.md)：31 笔去地址成交价格索引、团队业绩汇总，以及五笔可按主题展开的完整交易案例。
 - [`65-口播稿语言风格规范_团队版_2026-09-24.md`](references/65-口播稿语言风格规范_团队版_2026-09-24.md)：当前团队语言标准；固定模板服从出品优先级。
 - [`script-angle/guide.md`](references/script-angle/guide.md)：动笔前的写法筛选、预览卡和用户选择流程；配套资料按需读取。
@@ -179,7 +205,7 @@ kevin-writer/
 
 详细执行规则见 [`AGENTS.md`](AGENTS.md)。
 
-**最近同步：2026-10-02（观众利益与得失、逐句切入、历史本人原文校准及本地版本已同步复核）**
+**最近同步：2026-10-22（新增 Writing DNA、爆款标题本地化、平台语域、保真润色和内容优先的 A/B-roll 分析）**
 
 ## 其他智能体
 
