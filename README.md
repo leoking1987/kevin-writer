@@ -1,74 +1,45 @@
 # Kevin Writer
 
-> 为 Kevin Mo 打造的中文个人品牌写作 Skill：把复杂的湾区房产问题，写成专业、直接、可信、能帮助客户做决定的口播内容。
+> 为 Kevin Mo 打造的中文个人品牌社媒写作 Skill：写出逻辑锋利、口语自然、贴合社媒完播节奏、按主题原生定制的硅谷局内人表达。
 
 ![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827)
 ![Language](https://img.shields.io/badge/language-简体中文-dc2626)
-![Voice Standard](https://img.shields.io/badge/voice_standard-2026--09--24-2563eb)
+![Version](https://img.shields.io/badge/architecture-v2_Social_Retention-2563eb)
 
 ## 它能做什么
 
-`kevin-writer` 用于创作、改写和审核 Kevin Mo 的中文内容，包括：
+`kevin-writer` 用于创作、改写和审核 Kevin Mo 的中文个人品牌内容，覆盖：
 
-- YouTube 长视频与短视频口播稿
-- 湾区城市、社区和不同价位比较
-- 房地产市场、政策、科技与购买力解读
-- 买家、卖家与换房家庭的决策内容
-- 高净值房产、隐私和复杂交易框架
-- 豪宅社区、生活成本与资产规划内容
+- YouTube 长 / 中 / 短视频口播（Shorts / Reels / 视频号）
+- 小红书与社交媒体干货图文
+- 湾区市场异动、科技/AI 与政策传导链解读
+- 城市与社区真实生活对比、买卖与换房摊牌算账
+- 高净值复杂交易框架与湾区生活成本内容
 
-它不是把资料整理成一篇“看起来很专业”的文章，而是让 Kevin 像面对一位聪明、有购买力、但没时间研究全部数据的客户，直接给判断、解释原因、说明例外和下一步。
+它不是把资料整理成一份四平八稳的免责报告，而是让 Kevin 像坐在观众对面，拿一支笔把最容易算错的那笔账圈出来——专业但不学术、干脆但不浮夸、有锋芒但不训人。
 
-## 观众利益与得失
+## 四条核心写作铁律
 
-选题先明确观众想获得或保住什么、各条路径的真实价值和代价，再组织标题、开场与证据。关键句要把参数和机制接到人的具体使用与生活后果；两边都讲到值得舍不得的东西，最后给有条件的取舍。不能先罗列资料和注意事项，再用情绪词或结尾安慰补救；也不要求每句话煽情、每期劝退或强套二选一。事实、亲历与隐私边界照常遵守。
+1. **活人说话，去合规报告腔与端水腔**：通篇用“您”但不客套；先亮观点、再一句划清例外，禁止每段自我找补（如“但这也不能证明 / 也不能这么说 / 未必”），把抽象名词换成看得见的动作和账单。
+2. **脱离旧案与旧模板，一题一味**：默认不读历史 Top5 全文、不强塞团队成交案例库，按题材切换原生口感（侦探剥洋葱 / 多米诺传导链 / 摊牌算账 / 生活切片对撞 / 松弛账本吐槽），彻底告别所有主题一个味道。
+3. **一根主骨，单向推进，绝不啰嗦**：每篇只打穿 1 个主矛盾，走完 3–4 个单向递进大拍；同一观点只打一次，交稿前瘦身砍掉 15%–25% 废话铺垫，绝不为凑 10 分钟注水。
+4. **社媒完播引擎**：前 3–5 秒冷开场（反常事实 / 二选一站队 / 戳破盲区 / 账单直切，严禁复读标题），中段靠 Re-Hook 钩子接力拉完播，结尾 1–2 句干脆收束并自然引导互动或单个轻 CTA。
 
-Kevin 保留机制解释、明确倾向与改判条件；稳、有态度、有轻重，通篇用“您”。
+## 按需参考与默认交付
 
-## 当前写作与视频流程
+- **按需读取（Lazy Loading）**：核心规则收拢在 [`SKILL.md`](SKILL.md)，参考文件仅按需查阅；[`transaction-cases.md`](references/transaction-cases.md) 与 [`youtube-top5/`](references/youtube-top5/index.md) 默认不自动注入，防止旧案污染新题材。
+- **默认交付**：3–5 个高点击标题候选 + 可直接录/发的干净成稿。
+- **按需制作包**：仅当用户明确要求分镜/B-roll 或先看多种写法方案时，再分别触发 [`broll-annotation.md`](references/broll-annotation.md) 或 [`script-angle/guide.md`](references/script-angle/guide.md)。
 
-本版本在原有 Kevin 写作内核上增加了三层能力：
+## 事实与隐私红线
 
-- **Writing DNA**：按语言、结构、选题、素材、认知与视觉六个层面校准 Kevin 的稳定风格。
-- **爆款标题本地化**：标题优先组合地点／对象、具体事实或数字、损失／机会和适用条件；问句及“最”字只负责语气。
-- **保真润色**：先锁定数字、来源、归因、条件、否定、因果、承诺和责任主体，再清理模板句、假对比和空泛升华。
-- **平台语域**：长视频、短视频、图文和正式材料分别控制口语程度，不用同一种语气覆盖所有平台。
-
-视频脚本按内容自身结构写完后，再执行画面分析：
-
-1. 先完成并锁定完整全片逐字稿，初稿不预设 A-roll／B-roll 比例。
-2. 逐段判断该用 A-roll、B-roll、混合画面或画外旁白＋B-roll。
-3. 只对最终选择 B-roll 的片段做单独策划，对应旁白与标注版逐字一致。
-4. B-roll 不写 Kevin 或其他主持人的正拍、反应、走路和讲解；主持人出现时归 A-roll。
-
-## 核心写作标准
-
-| 维度 | 标准 |
-|---|---|
-| 出品优先级 | 逻辑清楚、信息密、说得顺、情绪有落点；高于固定时长、内容比例、模板节奏和品牌植入 |
-| 对话对象 | 一位具体客户；通篇使用“您” |
-| 开场 | 尽快交代具体决策与初步判断，及时兑现标题；不为卡秒数硬造悬念 |
-| 主线 | 一个问题、一个主要受众、一个核心观点 |
-| 长稿 | 默认完整口播；按主次与决策顺序讲透，不注水、不擅自压成短视频 |
-| 写法选择 | 未指定写法的房产决策口播先展示 2–4 张预览卡，选定骨架后成稿 |
-| 句子 | 按气口写，不用连续碎短句，不把脚本写成一句一行 |
-| 数据 | 先说数字说明什么，每段最多两组核心数字，来源实名 |
-| 判断 | 明确建议、适用范围、具体例外和改判信号 |
-| 情绪 | 让决策的得失、压力、向往与释然可感；稳、有态度、有轻重，不全篇平声播报 |
-| CTA | 有真实服务承接时最多一个主 CTA，可加一个轻量动作；没有就用可执行判断收口 |
-| 事实纪律 | 不编客户、成交、内部消息和一线观察；缺失内容使用 `【待补：需要什么】` |
-| 成交证据 | 31 笔逐笔成交价与团队汇总均可独立引用；五笔另有完整过程细节，按地区、价位、房型或交易问题调用 |
-| 交付门槛 | 先过逻辑、信息密度、口述与情绪落点四项检查，再做 18 项自检；评分不能抵消任一项失败 |
-
-称呼、气口、数字表达和禁语以 [`65-口播稿语言风格规范_团队版_2026-09-24.md`](references/65-口播稿语言风格规范_团队版_2026-09-24.md) 为语言标准；其模板与节奏建议不能覆盖上述出品优先级。情境稿按事件发生顺序推进，不把已经完成的决定重新当作待决问题。历史播放 Top5 中经确认的本人发言用于原文对照与声音校准，旧事实和采访对象发言不直接移植；历史播放不能证明某句式导致流量。
-
-写法选择流程、十一种方法卡、判断力方法论和预估规则已内置，无需另装 `script-angle`。已指定写法、局部润色、审核或非房产内容会跳过选择流程。预览中的留存预估是结构判断，不是实测保证；示例数字不能充当真实业绩。
+- **零编造**：不虚构客户、成交、对话、数据、房源状态、内幕或 Kevin 亲历；缺失关键事实用 `【待补：需要什么】` 并标注 `状态：待补稿`。
+- **时效与口径**：时效数据核验可靠来源，口播顺口带出日期范围，精确口径放文末备注或字卡。
+- **归属与合规**：团队做的说“我们”，本人亲历才说“我”；客户去标识化，遵守 Fair Housing，法律/税务/贷款只讲决策框架、不做收益保证。
 
 ## 安装
 
 ### 让 Codex 安装
-
-把仓库地址发给 Codex，并告诉它：
 
 ```text
 请从 https://github.com/leoking1987/kevin-writer 安装这个 Skill。
@@ -76,60 +47,31 @@ Kevin 保留机制解释、明确倾向与改判条件；稳、有态度、有�
 
 ### 手动安装
 
-macOS / Linux：
-
-```bash
-git clone https://github.com/leoking1987/kevin-writer.git \
-  "${CODEX_HOME:-$HOME/.codex}/skills/kevin-writer"
-```
-
-Windows PowerShell：
-
 ```powershell
 git clone https://github.com/leoking1987/kevin-writer.git `
   "$env:USERPROFILE\.codex\skills\kevin-writer"
 ```
 
-安装完成后，在支持 Skills 的 Codex 环境中通过 `$kevin-writer` 调用。
+安装完成后在支持 Skills 的环境中通过 `$kevin-writer` 调用。
 
-## 使用示例
-
-安装后可以直接调用：
+## 调用示例
 
 ```text
-使用 $kevin-writer，写一条 10 分钟口播稿。
-受众是 Palo Alto 600 万到 800 万美元房产的卖家，
-核心判断是：没有明确搬迁或资金需求时，不要急着卖。
+使用 $kevin-writer，写一条 60 秒短视频口播。
+主题：为什么湾区千万豪宅里，50 年老房反而比新房卖得更快？
+要求：3 秒冷开场、单线剥洋葱、不念报表、不端水，结尾留互动问题。
 ```
 
 ```text
-使用 $kevin-writer 审核这篇稿子。
-重点检查：是不是通篇用“您”、有没有连续碎短句、
-数据有没有翻译成人话、关键得失能否让人有感受、是否出现两个重 CTA。
+使用 $kevin-writer，写一篇 8 分钟 YouTube 长视频口播。
+主题：AI 大厂裁员潮下，硅谷房价为什么没按大家想的往下掉？
+要求：走多米诺传导链，3–4 个大拍推进，中段带 Re-Hook，不硬塞成交案例。
 ```
 
 ```text
-使用 $kevin-writer，把这篇市场分析改成 Kevin 能直接录的口播稿。
-不要新增事实；缺少数据、案例和服务入口时，使用规范占位符。
+使用 $kevin-writer 审核并重写这篇旧稿。
+重点干掉里面的端水免责句、兜圈子段落和慢热开头，保留真实数据与口径。
 ```
-
-```text
-使用 $kevin-writer，写一条 Newark 独栋价格分层口播。
-从 transaction-cases.md 的逐笔索引选取当地成交价作团队样本，
-不要只引用“31 套、1.21 亿美元”的汇总，也不要补造面积或房况。
-```
-
-如果稿件仍含 `【待补：…】`，Skill 会将其标为“待补稿”，不会冒充可直接拍摄的成稿。
-
-## 得失切口调用示例
-
-```text
-使用 $kevin-writer，写一篇给刚到湾区、正在选租房地点的人看的口播。
-先核验真实资料，找出观众想得到的生活与两边必须付出的代价，
-让关键事实改变取舍；不要写成租房注意事项，也不要编客户或用情绪词补救。
-```
-
-历史本人表达按 [Top5 原文参考组](references/youtube-top5/index.md) 和 [对照流程](references/youtube-top5/calibration.md) 校准；说明事实、声音和使用边界的规则见 [SKILL.md](SKILL.md)。
 
 ## 项目结构
 
@@ -148,75 +90,53 @@ kevin-writer/
     ├── persona.md
     ├── platform-register.md
     ├── title-patterns-maggie.md
+    ├── transaction-cases.md
     ├── writing-dna.md
-    ├── youtube-top5/
-    │   ├── 01-JpKYltxiqps.md
-    │   ├── 02--ctQstVxw84.md
-    │   ├── 03-zapfE7XlWF8.md
-    │   ├── 04-ZVgXT3JoRJw.md
-    │   ├── 05-UZn3x7YcksE.md
-    │   ├── calibration.md
-    │   ├── index.md
-    │   ├── manifest.json
-    │   └── voice-evidence.md
     ├── script-angle/
-    │   ├── guide.md
     │   ├── conversion-score.md
+    │   ├── guide.md
     │   ├── ledger-template.md
     │   ├── method-cards.md
     │   └── methodology.md
-    └── transaction-cases.md
+    └── youtube-top5/
+        ├── 01-JpKYltxiqps.md
+        ├── 02--ctQstVxw84.md
+        ├── 03-zapfE7XlWF8.md
+        ├── 04-ZVgXT3JoRJw.md
+        ├── 05-UZn3x7YcksE.md
+        ├── calibration.md
+        ├── index.md
+        ├── manifest.json
+        └── voice-evidence.md
 ```
 
-- [`SKILL.md`](SKILL.md)：触发范围、工作流、事实门与交付标准。
-- [`agents/openai.yaml`](agents/openai.yaml)：界面描述与默认调用入口，直接提示先确定观众得失，再展开机制和判断。
-- [`AGENTS.md`](AGENTS.md)：仓库维护规则，以及 README 强制同步要求。
-- [`persona.md`](references/persona.md)：Kevin 的人物定位、可信度来源和事实边界。
-- [`content-playbook.md`](references/content-playbook.md)：内容类型、结构、节奏与平台适配。
-- [`writing-dna.md`](references/writing-dna.md)：Kevin 的语言、结构、选题、素材、认知与视觉基线。
-- [`title-patterns-maggie.md`](references/title-patterns-maggie.md)：地点／对象、具体事实或数字、损失／机会与条件组合的标题机制。
-- [`platform-register.md`](references/platform-register.md)：长视频、短视频、图文和正式材料的语域规则。
-- [`humanization-pass.md`](references/humanization-pass.md)：事实保真的去 AI 腔与改写核对。
-- [`broll-annotation.md`](references/broll-annotation.md)：先定稿、后分析画面，再单独策划 B-roll 的完整流程。
-- [`transaction-cases.md`](references/transaction-cases.md)：31 笔去地址成交价格索引、团队业绩汇总，以及五笔可按主题展开的完整交易案例。
-- [`65-口播稿语言风格规范_团队版_2026-09-24.md`](references/65-口播稿语言风格规范_团队版_2026-09-24.md)：当前团队语言标准；固定模板服从出品优先级。
-- [`script-angle/guide.md`](references/script-angle/guide.md)：动笔前的写法筛选、预览卡和用户选择流程；配套资料按需读取。
+- [`SKILL.md`](SKILL.md)：核心铁律、事实红线、极简写作流与按需参考索引。
+- [`agents/openai.yaml`](agents/openai.yaml)：界面描述与默认调用提示。
+- [`AGENTS.md`](AGENTS.md)：仓库维护与 README 同步规则。
+- [`writing-dna.md`](references/writing-dna.md)：Kevin 的 6 层声纹基线及与 Marie 的差异定位。
+- [`content-playbook.md`](references/content-playbook.md)：社媒完播引擎（Cold Open / Re-Hook）与五大题材原生结构。
+- [`humanization-pass.md`](references/humanization-pass.md)：去机械腔、去端水免责与事实保真润色清单。
+- [`platform-register.md`](references/platform-register.md)：短视频、YouTube 中长视频、小红书与正式材料语域。
+- [`title-patterns-maggie.md`](references/title-patterns-maggie.md)：高点击标题规律与 Kevin 本地化公式。
+- [`persona.md`](references/persona.md)：人物底盘与传记边界。
+- [`65-口播稿语言风格规范_团队版_2026-09-24.md`](references/65-口播稿语言风格规范_团队版_2026-09-24.md)：团队称呼、气口、数字口语化与禁语补充参考。
+- [`transaction-cases.md`](references/transaction-cases.md)：可选成交证据库（31 笔价格索引 + 5 笔细节），仅在主题需要时按需调用。
+- [`broll-annotation.md`](references/broll-annotation.md)：按需触发的定稿后 A/B-roll 画面分析与策划规范。
+- [`script-angle/guide.md`](references/script-angle/guide.md)：按需触发的多写法方案预览与选择流程。
+- [`youtube-top5/calibration.md`](references/youtube-top5/calibration.md)：可选历史声纹档案使用边界（防旧案与 2020 年播报腔污染）。
 
 ## 规则优先级
 
-发生冲突时，按以下顺序执行：
-
-1. 用户在当前任务中的明确要求
-2. 事实核验与隐私边界（不能用风格或模板豁免）
-3. `SKILL.md` 的出品最高优先级及观众得失规则：逻辑清楚、信息密、说得顺、情绪有落点
-4. 历史 Top5 中经确认的 Kevin 本人表达，再由团队语言标准的其余规则与 `SKILL.md` 工作流补充
-5. 用户选定的写法骨架，再由内容结构手册补充包装；历史样本不决定本期事实或选题
-
-当前用户要求以及团队的称呼、事实和隐私规则优先于旧样本；本人原文用于校准表达，不用于移植旧事实。
+1. 用户当前明确要求
+2. 事实核验、去标识化隐私与 Fair Housing 红线
+3. [`SKILL.md`](SKILL.md) 的四条核心铁律（活人口语、一题一味、单向逻辑、社媒完播）
+4. [`writing-dna.md`](references/writing-dna.md)、[`content-playbook.md`](references/content-playbook.md) 与 [`humanization-pass.md`](references/humanization-pass.md)
+5. 其他按需调用的参考文件与可选档案
 
 ## 维护约定
 
-`README.md` 必须与 Skill 同步维护。凡是修改 `SKILL.md`、`agents/`、`references/`、`scripts/` 或 `assets/`，都必须在同一轮工作、同一个提交中：
+`README.md` 必须与 Skill 同步维护，详细规则见 [`AGENTS.md`](AGENTS.md)。
 
-1. 更新 README 中受影响的能力说明、规则、目录和使用示例；
-2. 清理失效链接、过期路径和与当前 Skill 冲突的旧描述；
-3. 运行 Skill 校验并检查 README 的本地链接；
-4. 即使 README 正文无需改写，也要更新下方同步日期，留下已复核的记录。
-
-详细执行规则见 [`AGENTS.md`](AGENTS.md)。
-
-**最近同步：2026-10-22（新增 Writing DNA、爆款标题本地化、平台语域、保真润色和内容优先的 A/B-roll 分析）**
-
-## 其他智能体
-
-这个仓库采用 Codex Skill 结构。其他智能体如果不支持 Skill 自动发现，仍可读取 `SKILL.md` 和 `references/` 作为项目级写作规范，但能否自动调用取决于具体客户端。
-
-## 更新
-
-在 Skill 目录执行：
-
-```bash
-git pull origin main
-```
+**最近同步：2026-11-25（重构 v2 架构：大幅精简 SKILL.md 解除规则僵化、根治端水报告腔、取消历史 Top5 与旧案例强制绑定防止同质化、建立单向 3–4 拍主骨逻辑与社媒 Cold Open / Re-Hook 完播引擎）**
 
 仓库地址：<https://github.com/leoking1987/kevin-writer>

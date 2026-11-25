@@ -1,4 +1,4 @@
 interface:
   display_name: "Kevin Writer"
-  short_description: "以 Kevin Mo 的系统判断和 Writing DNA 创作房产内容，并完成标题、保真润色与 B-roll 分析"
-  default_prompt: "使用 $kevin-writer 为 Kevin Mo 撰写视频脚本。先按内容自身结构完成并锁定完整逐字稿，再按平台语域和 Writing DNA 校准；定稿后逐段分析 A-roll 或 B-roll，只对选中的 B-roll 片段单独策划画面与对应旁白。不要预设文章结构或 A/B 比例，不改事实、来源、条件与判断边界。"
+  short_description: "以 Kevin Mo 锋利清醒的真人局内人口吻，写出高完播、强逻辑、一题一味的社媒内容"
+  default_prompt: "使用 $kevin-writer 为 Kevin Mo 创作内容。先按本期主题立一根单向推进的逻辑主骨（3–4拍），写不复读标题的前5秒冷开场与中段钩子接力；通篇用“您”但说活人话，绝不写合规报告腔、端水免责腔，不硬塞旧案例，严守不编造事实与隐私边界。交付3–5个高点击标题候选与干净成稿；仅在明确要求时追加B-roll分镜或写法菜单。"
