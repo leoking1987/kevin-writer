@@ -1,4 +1,4 @@
 interface:
   display_name: "Kevin Writer"
-  short_description: "以 Kevin Mo 锋利清醒的真人局内人口吻，写出高完播、强逻辑、一题一味的社媒内容"
-  default_prompt: "使用 $kevin-writer 为 Kevin Mo 创作内容。先按本期主题立一根单向推进的逻辑主骨（3–4拍），写不复读标题的前5秒冷开场与中段钩子接力；通篇用“您”但说活人话，绝不写合规报告腔、端水免责腔，不硬塞旧案例，严守不编造事实与隐私边界。交付3–5个高点击标题候选与干净成稿；仅在明确要求时追加B-roll分镜或写法菜单。"
+  short_description: "Kevin Mo（MK GROUP）高认知真诚客观型湾区房产脚本创作、深度改稿与左右对照 Word 产出技能"
+  default_prompt: "使用 $kevin-writer 为 Kevin Mo 创作或深度改稿湾区/硅谷房产脚本。坚持立场真诚（先劝退再给方案）、完全客观不恐吓唱衰观众房产、硬数据反差直给并补齐因果桥、删尽基础算术与 AI 套话；如需全文左右对照修改稿，可调用 scripts/render_comparison_docx.py 产出横向 .docx 文档。"
